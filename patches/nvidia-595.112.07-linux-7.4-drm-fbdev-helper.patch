@@ -1,0 +1,11 @@
+--- a/nvidia-drm/nvidia-drm-drv.c
++++ b/nvidia-drm/nvidia-drm-drv.c
+@@ -64,7 +64,7 @@
+ #endif
+ 
+ #if defined(NV_DRM_FBDEV_AVAILABLE)
+-#include <drm/drm_fb_helper.h>
++#include <drm/clients/drm_fbdev_helper.h>
+ #endif
+ 
+ #if defined(NV_DRM_DRM_CLIENT_SETUP_H_PRESENT)
